@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; }
+  .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .home-container-textOne {
+      font-size: xx-large; }

@@ -1,0 +1,23 @@
+.home {
+  @extend %align-center;
+  height: 80vh;
+
+  &-container {
+    @extend %align-center;
+    flex-direction: column;
+
+    &-textOne {
+      font-size: $largeFont;
+      margin-bottom: 20px;
+    }
+    &-textTwo {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @include tablet {
+    color: $colorthree;
+    background-color: $colorfive;
+  }
+}
